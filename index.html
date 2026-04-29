@@ -60,7 +60,8 @@
 
         /* ヒーローセクションの背景画像とオーバーレイ */
         .hero-bg {
-            background-image: url('feature1.png');
+            /* 相対パスをより明示的に ./ に変更しました */
+            background-image: url('./feature1.png');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -137,13 +138,15 @@
                         <div class="w-1/2 relative">
                             <span class="absolute top-2 left-2 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded">BEFORE</span>
                             <div class="aspect-[3/4] bg-zinc-800 rounded-lg flex items-center justify-center overflow-hidden">
-                                <img src="feature2.png" alt="Before" class="opacity-50 grayscale object-cover w-full h-full">
+                                <!-- 相対パスをより明示的に ./ に変更しました -->
+                                <img src="./feature2.png" alt="Before" class="opacity-50 grayscale object-cover w-full h-full">
                             </div>
                         </div>
                         <div class="w-1/2 relative">
                             <span class="absolute top-2 left-2 bg-gold text-black text-xs font-bold px-2 py-1 rounded shadow-md">AFTER (2ヶ月後)</span>
                             <div class="aspect-[3/4] bg-zinc-800 rounded-lg flex items-center justify-center overflow-hidden">
-                                <img src="feature3.png" alt="After" class="object-cover w-full h-full">
+                                <!-- 相対パスをより明示的に ./ に変更しました -->
+                                <img src="./feature3.png" alt="After" class="object-cover w-full h-full">
                             </div>
                         </div>
                     </div>
@@ -159,13 +162,15 @@
                         <div class="w-1/2 relative">
                             <span class="absolute top-2 left-2 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded">BEFORE</span>
                             <div class="aspect-[3/4] bg-zinc-800 rounded-lg flex items-center justify-center overflow-hidden">
-                                <img src="feature2.png" alt="Before" class="opacity-50 grayscale object-cover w-full h-full">
+                                <!-- 相対パスをより明示的に ./ に変更しました -->
+                                <img src="./feature2.png" alt="Before" class="opacity-50 grayscale object-cover w-full h-full">
                             </div>
                         </div>
                         <div class="w-1/2 relative">
                             <span class="absolute top-2 left-2 bg-gold text-black text-xs font-bold px-2 py-1 rounded shadow-md">AFTER (3ヶ月後)</span>
                             <div class="aspect-[3/4] bg-zinc-800 rounded-lg flex items-center justify-center overflow-hidden">
-                                <img src="feature3.png" alt="After" class="object-cover w-full h-full">
+                                <!-- 相対パスをより明示的に ./ に変更しました -->
+                                <img src="./feature3.png" alt="After" class="object-cover w-full h-full">
                             </div>
                         </div>
                     </div>
